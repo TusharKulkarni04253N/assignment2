@@ -2,21 +2,13 @@
 
 # problem 1
 
+b = []
+for i in range(1,10,2):
+    b.append(i)
+    print (b)
 a = int(input("Insert digit between 0 to 10:- "))
 
-if (a == 1):
-    print('given number is odd')
-
-elif(a == 3):
-    print('given number is odd')
-
-elif(a == 5):
-    print('given number is odd')
-
-elif(a == 7):
-    print('given number is odd')
-
-elif(a == 9):
+if (a in b):
     print('given number is odd')
 
 else :
